@@ -6,17 +6,80 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EDA26E672FB255DE00108CB0 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E602FB255DE00108CB0 /* LibraryView.swift */; };
+		EDA26E682FB255DE00108CB0 /* AddGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E552FB255DE00108CB0 /* AddGoalView.swift */; };
+		EDA26E692FB255DE00108CB0 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E4E2FB255DE00108CB0 /* EmptyStateView.swift */; };
+		EDA26E6A2FB255DE00108CB0 /* ReadingGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E3E2FB255DE00108CB0 /* ReadingGoal.swift */; };
+		EDA26E6B2FB255DE00108CB0 /* BookEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E3C2FB255DE00108CB0 /* BookEnums.swift */; };
+		EDA26E6C2FB255DE00108CB0 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E5C2FB255DE00108CB0 /* JournalView.swift */; };
+		EDA26E6D2FB255DE00108CB0 /* FilterPillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E4F2FB255DE00108CB0 /* FilterPillView.swift */; };
+		EDA26E6E2FB255DE00108CB0 /* BookNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E3D2FB255DE00108CB0 /* BookNote.swift */; };
+		EDA26E6F2FB255DE00108CB0 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E5F2FB255DE00108CB0 /* BookDetailView.swift */; };
+		EDA26E702FB255DE00108CB0 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E3B2FB255DE00108CB0 /* Book.swift */; };
+		EDA26E712FB255DE00108CB0 /* StatCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E532FB255DE00108CB0 /* StatCardView.swift */; };
+		EDA26E722FB255DE00108CB0 /* BookRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E4B2FB255DE00108CB0 /* BookRowView.swift */; };
+		EDA26E732FB255DE00108CB0 /* CurrentBookCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E4D2FB255DE00108CB0 /* CurrentBookCardView.swift */; };
+		EDA26E742FB255DE00108CB0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E452FB255DE00108CB0 /* HomeViewModel.swift */; };
+		EDA26E752FB255DE00108CB0 /* GoalProgressCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E502FB255DE00108CB0 /* GoalProgressCardView.swift */; };
+		EDA26E762FB255DE00108CB0 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E522FB255DE00108CB0 /* SectionHeaderView.swift */; };
+		EDA26E772FB255DE00108CB0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E592FB255DE00108CB0 /* HomeView.swift */; };
+		EDA26E782FB255DE00108CB0 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E402FB255DE00108CB0 /* SampleData.swift */; };
+		EDA26E792FB255DE00108CB0 /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E462FB255DE00108CB0 /* JournalViewModel.swift */; };
+		EDA26E7A2FB255DE00108CB0 /* StatusFilterBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E612FB255DE00108CB0 /* StatusFilterBarView.swift */; };
+		EDA26E7B2FB255DE00108CB0 /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E472FB255DE00108CB0 /* LibraryViewModel.swift */; };
+		EDA26E7C2FB255DE00108CB0 /* GoalsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E442FB255DE00108CB0 /* GoalsViewModel.swift */; };
+		EDA26E7D2FB255DE00108CB0 /* BookCoverPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E4A2FB255DE00108CB0 /* BookCoverPlaceholderView.swift */; };
+		EDA26E7E2FB255DE00108CB0 /* StatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E482FB255DE00108CB0 /* StatsViewModel.swift */; };
+		EDA26E7F2FB255DE00108CB0 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E5E2FB255DE00108CB0 /* AddBookView.swift */; };
+		EDA26E802FB255DE00108CB0 /* NoteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E512FB255DE00108CB0 /* NoteRowView.swift */; };
+		EDA26E812FB255DE00108CB0 /* BookNestRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E392FB255DE00108CB0 /* BookNestRootView.swift */; };
+		EDA26E822FB255DE00108CB0 /* View+CardStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E422FB255DE00108CB0 /* View+CardStyle.swift */; };
+		EDA26E832FB255DE00108CB0 /* CompactBookRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E4C2FB255DE00108CB0 /* CompactBookRowView.swift */; };
+		EDA26E842FB255DE00108CB0 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E632FB255DE00108CB0 /* StatsView.swift */; };
+		EDA26E852FB255DE00108CB0 /* HeaderGreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E582FB255DE00108CB0 /* HeaderGreetingView.swift */; };
+		EDA26E862FB255DE00108CB0 /* BookNestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E382FB255DE00108CB0 /* BookNestApp.swift */; };
+		EDA26E872FB255DE00108CB0 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E562FB255DE00108CB0 /* GoalsView.swift */; };
+		EDA26E882FB255DE00108CB0 /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA26E5B2FB255DE00108CB0 /* AddNoteView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EDA26DD72FB2558500108CB0 /* BookNest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookNest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA26E382FB255DE00108CB0 /* BookNestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNestApp.swift; sourceTree = "<group>"; };
+		EDA26E392FB255DE00108CB0 /* BookNestRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNestRootView.swift; sourceTree = "<group>"; };
+		EDA26E3B2FB255DE00108CB0 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		EDA26E3C2FB255DE00108CB0 /* BookEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEnums.swift; sourceTree = "<group>"; };
+		EDA26E3D2FB255DE00108CB0 /* BookNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNote.swift; sourceTree = "<group>"; };
+		EDA26E3E2FB255DE00108CB0 /* ReadingGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingGoal.swift; sourceTree = "<group>"; };
+		EDA26E402FB255DE00108CB0 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		EDA26E422FB255DE00108CB0 /* View+CardStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+CardStyle.swift"; sourceTree = "<group>"; };
+		EDA26E442FB255DE00108CB0 /* GoalsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewModel.swift; sourceTree = "<group>"; };
+		EDA26E452FB255DE00108CB0 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EDA26E462FB255DE00108CB0 /* JournalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewModel.swift; sourceTree = "<group>"; };
+		EDA26E472FB255DE00108CB0 /* LibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
+		EDA26E482FB255DE00108CB0 /* StatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewModel.swift; sourceTree = "<group>"; };
+		EDA26E4A2FB255DE00108CB0 /* BookCoverPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCoverPlaceholderView.swift; sourceTree = "<group>"; };
+		EDA26E4B2FB255DE00108CB0 /* BookRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRowView.swift; sourceTree = "<group>"; };
+		EDA26E4C2FB255DE00108CB0 /* CompactBookRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactBookRowView.swift; sourceTree = "<group>"; };
+		EDA26E4D2FB255DE00108CB0 /* CurrentBookCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentBookCardView.swift; sourceTree = "<group>"; };
+		EDA26E4E2FB255DE00108CB0 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		EDA26E4F2FB255DE00108CB0 /* FilterPillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPillView.swift; sourceTree = "<group>"; };
+		EDA26E502FB255DE00108CB0 /* GoalProgressCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalProgressCardView.swift; sourceTree = "<group>"; };
+		EDA26E512FB255DE00108CB0 /* NoteRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRowView.swift; sourceTree = "<group>"; };
+		EDA26E522FB255DE00108CB0 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		EDA26E532FB255DE00108CB0 /* StatCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCardView.swift; sourceTree = "<group>"; };
+		EDA26E552FB255DE00108CB0 /* AddGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalView.swift; sourceTree = "<group>"; };
+		EDA26E562FB255DE00108CB0 /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+		EDA26E582FB255DE00108CB0 /* HeaderGreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderGreetingView.swift; sourceTree = "<group>"; };
+		EDA26E592FB255DE00108CB0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EDA26E5B2FB255DE00108CB0 /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
+		EDA26E5C2FB255DE00108CB0 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		EDA26E5E2FB255DE00108CB0 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		EDA26E5F2FB255DE00108CB0 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		EDA26E602FB255DE00108CB0 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		EDA26E612FB255DE00108CB0 /* StatusFilterBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusFilterBarView.swift; sourceTree = "<group>"; };
+		EDA26E632FB255DE00108CB0 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EDA26DD92FB2558500108CB0 /* BookNest */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BookNest;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EDA26DD42FB2558500108CB0 /* Frameworks */ = {
@@ -32,7 +95,7 @@
 		EDA26DCE2FB2558500108CB0 = {
 			isa = PBXGroup;
 			children = (
-				EDA26DD92FB2558500108CB0 /* BookNest */,
+				EDA26E662FB255DE00108CB0 /* BookNest */,
 				EDA26DD82FB2558500108CB0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +106,143 @@
 				EDA26DD72FB2558500108CB0 /* BookNest.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EDA26E3A2FB255DE00108CB0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EDA26E382FB255DE00108CB0 /* BookNestApp.swift */,
+				EDA26E392FB255DE00108CB0 /* BookNestRootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EDA26E3F2FB255DE00108CB0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDA26E3B2FB255DE00108CB0 /* Book.swift */,
+				EDA26E3C2FB255DE00108CB0 /* BookEnums.swift */,
+				EDA26E3D2FB255DE00108CB0 /* BookNote.swift */,
+				EDA26E3E2FB255DE00108CB0 /* ReadingGoal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EDA26E412FB255DE00108CB0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EDA26E402FB255DE00108CB0 /* SampleData.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EDA26E432FB255DE00108CB0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EDA26E422FB255DE00108CB0 /* View+CardStyle.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EDA26E492FB255DE00108CB0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EDA26E442FB255DE00108CB0 /* GoalsViewModel.swift */,
+				EDA26E452FB255DE00108CB0 /* HomeViewModel.swift */,
+				EDA26E462FB255DE00108CB0 /* JournalViewModel.swift */,
+				EDA26E472FB255DE00108CB0 /* LibraryViewModel.swift */,
+				EDA26E482FB255DE00108CB0 /* StatsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EDA26E542FB255DE00108CB0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EDA26E4A2FB255DE00108CB0 /* BookCoverPlaceholderView.swift */,
+				EDA26E4B2FB255DE00108CB0 /* BookRowView.swift */,
+				EDA26E4C2FB255DE00108CB0 /* CompactBookRowView.swift */,
+				EDA26E4D2FB255DE00108CB0 /* CurrentBookCardView.swift */,
+				EDA26E4E2FB255DE00108CB0 /* EmptyStateView.swift */,
+				EDA26E4F2FB255DE00108CB0 /* FilterPillView.swift */,
+				EDA26E502FB255DE00108CB0 /* GoalProgressCardView.swift */,
+				EDA26E512FB255DE00108CB0 /* NoteRowView.swift */,
+				EDA26E522FB255DE00108CB0 /* SectionHeaderView.swift */,
+				EDA26E532FB255DE00108CB0 /* StatCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EDA26E572FB255DE00108CB0 /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+				EDA26E552FB255DE00108CB0 /* AddGoalView.swift */,
+				EDA26E562FB255DE00108CB0 /* GoalsView.swift */,
+			);
+			path = Goals;
+			sourceTree = "<group>";
+		};
+		EDA26E5A2FB255DE00108CB0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EDA26E582FB255DE00108CB0 /* HeaderGreetingView.swift */,
+				EDA26E592FB255DE00108CB0 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EDA26E5D2FB255DE00108CB0 /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				EDA26E5B2FB255DE00108CB0 /* AddNoteView.swift */,
+				EDA26E5C2FB255DE00108CB0 /* JournalView.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		EDA26E622FB255DE00108CB0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				EDA26E5E2FB255DE00108CB0 /* AddBookView.swift */,
+				EDA26E5F2FB255DE00108CB0 /* BookDetailView.swift */,
+				EDA26E602FB255DE00108CB0 /* LibraryView.swift */,
+				EDA26E612FB255DE00108CB0 /* StatusFilterBarView.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		EDA26E642FB255DE00108CB0 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				EDA26E632FB255DE00108CB0 /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		EDA26E652FB255DE00108CB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDA26E542FB255DE00108CB0 /* Components */,
+				EDA26E572FB255DE00108CB0 /* Goals */,
+				EDA26E5A2FB255DE00108CB0 /* Home */,
+				EDA26E5D2FB255DE00108CB0 /* Journal */,
+				EDA26E622FB255DE00108CB0 /* Library */,
+				EDA26E642FB255DE00108CB0 /* Stats */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EDA26E662FB255DE00108CB0 /* BookNest */ = {
+			isa = PBXGroup;
+			children = (
+				EDA26E3A2FB255DE00108CB0 /* App */,
+				EDA26E3F2FB255DE00108CB0 /* Models */,
+				EDA26E412FB255DE00108CB0 /* Resources */,
+				EDA26E432FB255DE00108CB0 /* Utilities */,
+				EDA26E492FB255DE00108CB0 /* ViewModels */,
+				EDA26E652FB255DE00108CB0 /* Views */,
+			);
+			path = BookNest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +259,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EDA26DD92FB2558500108CB0 /* BookNest */,
 			);
 			name = BookNest;
 			packageProductDependencies = (
@@ -119,6 +316,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA26E672FB255DE00108CB0 /* LibraryView.swift in Sources */,
+				EDA26E682FB255DE00108CB0 /* AddGoalView.swift in Sources */,
+				EDA26E692FB255DE00108CB0 /* EmptyStateView.swift in Sources */,
+				EDA26E6A2FB255DE00108CB0 /* ReadingGoal.swift in Sources */,
+				EDA26E6B2FB255DE00108CB0 /* BookEnums.swift in Sources */,
+				EDA26E6C2FB255DE00108CB0 /* JournalView.swift in Sources */,
+				EDA26E6D2FB255DE00108CB0 /* FilterPillView.swift in Sources */,
+				EDA26E6E2FB255DE00108CB0 /* BookNote.swift in Sources */,
+				EDA26E6F2FB255DE00108CB0 /* BookDetailView.swift in Sources */,
+				EDA26E702FB255DE00108CB0 /* Book.swift in Sources */,
+				EDA26E712FB255DE00108CB0 /* StatCardView.swift in Sources */,
+				EDA26E722FB255DE00108CB0 /* BookRowView.swift in Sources */,
+				EDA26E732FB255DE00108CB0 /* CurrentBookCardView.swift in Sources */,
+				EDA26E742FB255DE00108CB0 /* HomeViewModel.swift in Sources */,
+				EDA26E752FB255DE00108CB0 /* GoalProgressCardView.swift in Sources */,
+				EDA26E762FB255DE00108CB0 /* SectionHeaderView.swift in Sources */,
+				EDA26E772FB255DE00108CB0 /* HomeView.swift in Sources */,
+				EDA26E782FB255DE00108CB0 /* SampleData.swift in Sources */,
+				EDA26E792FB255DE00108CB0 /* JournalViewModel.swift in Sources */,
+				EDA26E7A2FB255DE00108CB0 /* StatusFilterBarView.swift in Sources */,
+				EDA26E7B2FB255DE00108CB0 /* LibraryViewModel.swift in Sources */,
+				EDA26E7C2FB255DE00108CB0 /* GoalsViewModel.swift in Sources */,
+				EDA26E7D2FB255DE00108CB0 /* BookCoverPlaceholderView.swift in Sources */,
+				EDA26E7E2FB255DE00108CB0 /* StatsViewModel.swift in Sources */,
+				EDA26E7F2FB255DE00108CB0 /* AddBookView.swift in Sources */,
+				EDA26E802FB255DE00108CB0 /* NoteRowView.swift in Sources */,
+				EDA26E812FB255DE00108CB0 /* BookNestRootView.swift in Sources */,
+				EDA26E822FB255DE00108CB0 /* View+CardStyle.swift in Sources */,
+				EDA26E832FB255DE00108CB0 /* CompactBookRowView.swift in Sources */,
+				EDA26E842FB255DE00108CB0 /* StatsView.swift in Sources */,
+				EDA26E852FB255DE00108CB0 /* HeaderGreetingView.swift in Sources */,
+				EDA26E862FB255DE00108CB0 /* BookNestApp.swift in Sources */,
+				EDA26E872FB255DE00108CB0 /* GoalsView.swift in Sources */,
+				EDA26E882FB255DE00108CB0 /* AddNoteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,11 +487,13 @@
 				DEVELOPMENT_TEAM = 7PTM8F2LLK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BookNest;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -288,11 +521,13 @@
 				DEVELOPMENT_TEAM = 7PTM8F2LLK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BookNest;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
