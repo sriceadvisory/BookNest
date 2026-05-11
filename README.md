@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # BookNest
 
 BookNest is an offline SwiftUI reading tracker for managing a personal library, journal notes, reading goals, and reading statistics.
@@ -26,6 +25,4 @@ BookNest uses SwiftData for local device storage. The app does not require login
 ## Portfolio Notes
 
 The app is structured around small SwiftUI views, reusable components, local persistence, and clear model-driven state. Runtime screens use SwiftData queries instead of sample data so the app behaves like a real offline product.
-=======
-# BookNest
->>>>>>> f1fe69cfff6c3cd53ffc8e7e01e300e1d1753ed9
+
